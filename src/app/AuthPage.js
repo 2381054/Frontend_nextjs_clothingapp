@@ -1,7 +1,7 @@
 // src/app/AuthPage.js
 import React, { useState } from 'react';
 
-const API_URL = 'http://localhost:4000/api/auth'; // Pastikan sesuai backend kamu
+const API_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/auth'; // Pastikan sesuai backend kamu
 
 export default function AuthPage() {
   const [isRegister, setIsRegister] = useState(false);

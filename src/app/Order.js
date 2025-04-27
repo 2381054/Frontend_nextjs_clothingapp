@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 
-const API_ORDER_URL = 'http://localhost:4000/api/orders';
-const API_PRODUCT_URL = 'http://localhost:4000/api/products';
+const API_ORDER_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/orders';
+const API_PRODUCT_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/products';
 
 export default function Order() {
   const [products, setProducts] = useState([]);

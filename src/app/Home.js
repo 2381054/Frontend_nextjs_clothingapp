@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import ProductList from '../components/ProductList';
 import ProductForm from '../components/ProductForm';
 
-const API_URL = 'http://localhost:4000/api/products'; // ← Adjusted for different port
+const API_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/products'; // ← Adjusted for different port
 
 export default function Home() {
   const [productToEdit, setProductToEdit] = useState(null);

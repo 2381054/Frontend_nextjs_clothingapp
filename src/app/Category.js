@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Nav from '../components/Nav'; // ← tambah ini!
 
-const API_CATEGORY_URL = 'http://localhost:4000/api/categories';
+const API_CATEGORY_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/categories';
 
 export default function Category() {
   const [categories, setCategories] = useState([]);

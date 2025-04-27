@@ -1,7 +1,7 @@
 // src/app/OrderPage.js
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:4000/api/orders';
+const API_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/orders';
 
 export default function OrderPage() {
   const [orders, setOrders] = useState([]);

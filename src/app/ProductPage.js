@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 
-const API_PRODUCT_URL = 'http://localhost:4000/api/products';
-const API_CATEGORY_URL = 'http://localhost:4000/api/categories';
+const API_PRODUCT_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/products';
+const API_CATEGORY_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/categories';
 
 export default function ProductPage() {
   const [products, setProducts] = useState([]);

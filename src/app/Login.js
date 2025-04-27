@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API_AUTH_URL = 'http://localhost:4000/api/auth';
+const API_AUTH_URL = 'https://backend-nextjs-clothingapp.vercel.app/api/auth';
 
 export default function Auth() {
   const [email, setEmail] = useState('');
