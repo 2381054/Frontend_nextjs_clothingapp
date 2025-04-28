@@ -77,7 +77,7 @@ export default function Order() {
 
   return (
     <div style={{ maxWidth: '600px', margin: '0 auto', paddingTop: '40px' }}>
-      <h1>Kontolodon branded store</h1>
+      <h1>saya suka meditasi pagi - branded store</h1>
       <h3>Make an Order</h3>
       <form onSubmit={handleOrder}>
         <div style={{ marginBottom: '20px' }}>
